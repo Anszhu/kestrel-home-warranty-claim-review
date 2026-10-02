@@ -22,6 +22,9 @@ Partners onboarded in the last year have about twice the fraud rate (2.2% vs 1.1
 ## Partner history
 It was useful in the six months before the backtest (removing it cuts ROC-AUC from 0.851 to 0.777) but became less consistent after May 2026: in Apr-Jun, removing it leaves ROC-AUC essentially unchanged (0.8345 vs 0.8338). The post-May sample is small (45 fraud cases), so the model was not retuned on it. This does not show partner history is optimal or necessary; monitor it as more outcomes arrive. Claim-amount features were tested and not adopted: they did not hold across periods.
 
+## Additional checks and reconciliation boundary
+The author confirms personally checking a genuine human-labelled sample. No separate sample file or annotation details were supplied for this handoff, so no sample size or model-comparison metric is reported; treat it only as a qualitative sanity check, not proof of performance. The Kestrel pack contains no payment ledger. Re-submitted claim IDs were de-duplicated for analysis, but that does not establish double payouts or a zero-rupee reconciliation.
+
 ## Limitations
 Few fraud labels and low prevalence make every figure noisy. Partner history is concentrated in a few outlets and can burden good ones, so a human decides. Fraud patterns drift, and "no inspection recorded" can simply reflect the policy for claims under Rs 2,000. Re-submitted claims were de-duplicated, undecided cases excluded, and some legacy "genuine" labels may be open cases. `src/model_config.json` holds partner-level fraud rates and is confidential.
 
