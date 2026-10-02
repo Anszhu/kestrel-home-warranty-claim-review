@@ -93,12 +93,17 @@ Hidden-test outcomes are unavailable, so hidden-test performance has not been me
 Rs 328.94 is the **gross value of fraudulent claims surfaced per review** in the validation queue (claim amount of confirmed fraud). It is not savings, net benefit, ROI, profit or realised value. Assumptions: 40 reviews a month; Rs 380 goodwill per genuine reviewed claim (assuming each is held); investigator time and the Rs 260 service-contact cost are not included. 102 of the 120 reviewed claims were genuine; at Rs 380 goodwill each (Rs 38,760, assuming each is held) the illustrative residual is approximately **Rs 713** across the historical validation queue (about Rs 5.94 per review), before investigator time and other operational costs. This is not guaranteed savings, not a proven ROI and not evidence the model is profitable.
 Experiments (`validation/experiment_report.md`): two claim-amount variants were tested and **not adopted** (no stable gain across windows). Partner history was useful in the earlier development period (Oct 2025-Mar 2026) but became less consistent after May 2026; the post-May sample is small (45 fraud cases across Apr-Jun), so the model was not retuned on it. This does not show partner history is optimal or definitely necessary; monitor it as more post-May outcomes become available.
 
-## 14. Limitations
+## 14. Human-labelled sample and payment reconciliation
+The author confirms that a relevant sample was personally checked and is genuinely human-labelled. No separate sample file was supplied with this handoff, so its size, labelling method, comparison with model outputs, and any metrics cannot be independently reproduced here. This is a qualitative confirmation only; it is separate from the investigation outcomes used to train and backtest the model, and it does not establish model accuracy.
+
+The Kestrel files contain claim and investigation data, but no payment ledger or payout events. They therefore cannot establish whether a claim was paid twice or support a rupee reconciliation to zero. Duplicate `claim_id` rows are partner re-submissions and are de-duplicated by keeping the first row; that data-cleaning rule is not a double-payout check.
+
+## 15. Limitations
 Only 45 fraud cases in validation, so every metric is noisy; month-to-month ranking quality varies; accuracy at 0.5 is uninformative; claim amount is not in the score; "no inspection recorded" can reflect policy; some legacy "genuine" labels may be open cases; partner history can burden good outlets, so use only as a prompt for human review.
 
-## 15. AI disclosure
+## 16. AI disclosure
 See `AI_USAGE.md`: AI assistance (Claude) was used for coding/scaffolding, tests, validation iteration and documentation review; no paid API is used by the product.
 
-## 16. Privacy and deployment
+## 17. Privacy and deployment
 See `SECURITY.md`. Kestrel's policy (s10) forbids publishing the data or sharing it beyond the engagement team. `.gitignore` excludes data, outputs, CSVs, PDFs and secrets. `src/model_config.json` is confidential (partner-level fraud rates, recent rates, onboarding dates, scoring weights; no claim rows or free text): keep the repository and ZIP private and never expose them in a public deployment. A Streamlit deployment (entry point `app.py`) must be private/restricted.
 
