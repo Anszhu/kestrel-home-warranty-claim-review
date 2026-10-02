@@ -1,0 +1,720 @@
+{
+  "development_Oct2025_Mar2026": {
+    "months": [
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03"
+    ],
+    "val_rows": 4409,
+    "val_fraud": 50,
+    "A_current": {
+      "roc_auc": 0.850529938059188,
+      "avg_precision": 0.2603992870769711,
+      "accuracy_at_0.5": 0.9886595599909277,
+      "queue_fraud": 32,
+      "queue_reviewed": 240,
+      "queue_fraud_value_inr": 236252.0,
+      "fraud_value_per_review_inr": 984.3833333333333,
+      "monthly_roc_auc": {
+        "2025-10": 0.8058894230769231,
+        "2025-11": 0.7806223479490806,
+        "2025-12": 0.9408163265306122,
+        "2026-01": 0.8262638504155124,
+        "2026-02": 0.9925979680696663,
+        "2026-03": 0.8110806279530559
+      }
+    },
+    "B_policy_aware_amount": {
+      "0.02": {
+        "roc_auc": 0.850529938059188,
+        "avg_precision": 0.2603992870769711,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 32,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 236252.0,
+        "fraud_value_per_review_inr": 984.3833333333333,
+        "monthly_roc_auc": {
+          "2025-10": 0.8058894230769231,
+          "2025-11": 0.7806223479490806,
+          "2025-12": 0.9408163265306122,
+          "2026-01": 0.8262638504155124,
+          "2026-02": 0.9925979680696663,
+          "2026-03": 0.8110806279530559
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "resamples": 2000,
+          "seed": 42
+        }
+      },
+      "0.05": {
+        "roc_auc": 0.850529938059188,
+        "avg_precision": 0.2603992870769711,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 32,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 236252.0,
+        "fraud_value_per_review_inr": 984.3833333333333,
+        "monthly_roc_auc": {
+          "2025-10": 0.8058894230769231,
+          "2025-11": 0.7806223479490806,
+          "2025-12": 0.9408163265306122,
+          "2026-01": 0.8262638504155124,
+          "2026-02": 0.9925979680696663,
+          "2026-03": 0.8110806279530559
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "resamples": 2000,
+          "seed": 42
+        }
+      },
+      "0.1": {
+        "roc_auc": 0.850529938059188,
+        "avg_precision": 0.2603992870769711,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 32,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 236252.0,
+        "fraud_value_per_review_inr": 984.3833333333333,
+        "monthly_roc_auc": {
+          "2025-10": 0.8058894230769231,
+          "2025-11": 0.7806223479490806,
+          "2025-12": 0.9408163265306122,
+          "2026-01": 0.8262638504155124,
+          "2026-02": 0.9925979680696663,
+          "2026-03": 0.8110806279530559
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": 0.0,
+          "ci_low": 0.0,
+          "ci_high": 0.0,
+          "resamples": 2000,
+          "seed": 42
+        }
+      }
+    },
+    "B_amount_band_only": {
+      "0.02": {
+        "roc_auc": 0.8062353750860289,
+        "avg_precision": 0.21464214569511114,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 33,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 237006.0,
+        "fraud_value_per_review_inr": 987.525,
+        "monthly_roc_auc": {
+          "2025-10": 0.8153331043956044,
+          "2025-11": 0.6731966053748232,
+          "2025-12": 0.9308673469387756,
+          "2026-01": 0.7706024930747923,
+          "2026-02": 0.9904208998548621,
+          "2026-03": 0.7233653406492913
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": -0.044569447390074214,
+          "ci_low": -0.08279851686956094,
+          "ci_high": -0.012062655783910036,
+          "resamples": 2000,
+          "seed": 42
+        }
+      },
+      "0.05": {
+        "roc_auc": 0.7880637760954348,
+        "avg_precision": 0.17390032053359966,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 32,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 220779.0,
+        "fraud_value_per_review_inr": 919.9125,
+        "monthly_roc_auc": {
+          "2025-10": 0.821514423076923,
+          "2025-11": 0.6284299858557285,
+          "2025-12": 0.8875000000000001,
+          "2026-01": 0.7702562326869806,
+          "2026-02": 0.9840348330914368,
+          "2026-03": 0.7194025301021185
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": -0.06230374785507459,
+          "ci_low": -0.11436031483712632,
+          "ci_high": -0.019099722921725872,
+          "resamples": 2000,
+          "seed": 42
+        }
+      },
+      "0.1": {
+        "roc_auc": 0.7651410874053682,
+        "avg_precision": 0.12499768844893581,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 27,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 186057.0,
+        "fraud_value_per_review_inr": 775.2375,
+        "monthly_roc_auc": {
+          "2025-10": 0.8211710164835164,
+          "2025-11": 0.6301272984441302,
+          "2025-12": 0.8321428571428571,
+          "2026-01": 0.7648891966759004,
+          "2026-02": 0.9335268505079826,
+          "2026-03": 0.6857186404511508
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": -0.08509445221856049,
+          "ci_low": -0.13980165731632963,
+          "ci_high": -0.035853313182972205,
+          "resamples": 2000,
+          "seed": 42
+        }
+      }
+    },
+    "ablations": {
+      "remove_partner_history": {
+        "roc_auc": 0.77652213810507,
+        "avg_precision": 0.04917243572739305,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 16,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 94374.0,
+        "fraud_value_per_review_inr": 393.225,
+        "monthly_roc_auc": {
+          "2025-10": 0.7651957417582418,
+          "2025-11": 0.7688118811881188,
+          "2025-12": 0.8248086734693877,
+          "2026-01": 0.6942520775623269,
+          "2026-02": 0.8994194484760523,
+          "2026-03": 0.7763298277701569
+        }
+      },
+      "remove_recent_partner_rate": {
+        "roc_auc": 0.8502592337692132,
+        "avg_precision": 0.26112349760483894,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 32,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 236252.0,
+        "fraud_value_per_review_inr": 984.3833333333333,
+        "monthly_roc_auc": {
+          "2025-10": 0.7955013736263736,
+          "2025-11": 0.7810466760961811,
+          "2025-12": 0.9434948979591837,
+          "2026-01": 0.8226281163434903,
+          "2026-02": 0.9914368650217708,
+          "2026-03": 0.8097850937357111
+        }
+      },
+      "remove_partner_recency": {
+        "roc_auc": 0.8711906400550586,
+        "avg_precision": 0.2695037512180574,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 34,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 238031.0,
+        "fraud_value_per_review_inr": 991.7958333333333,
+        "monthly_roc_auc": {
+          "2025-10": 0.821771978021978,
+          "2025-11": 0.8328147100424328,
+          "2025-12": 0.9631377551020408,
+          "2026-01": 0.8416724376731302,
+          "2026-02": 0.9925979680696662,
+          "2026-03": 0.8215973174820911
+        }
+      },
+      "remove_customer_prior_claims": {
+        "roc_auc": 0.840915347556779,
+        "avg_precision": 0.21174825918980283,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 32,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 236252.0,
+        "fraud_value_per_review_inr": 984.3833333333333,
+        "monthly_roc_auc": {
+          "2025-10": 0.8111263736263736,
+          "2025-11": 0.72998585572843,
+          "2025-12": 0.8911352040816326,
+          "2026-01": 0.8621018005540166,
+          "2026-02": 0.9894049346879535,
+          "2026-03": 0.833638164913885
+        }
+      },
+      "remove_inspection_signal": {
+        "roc_auc": 0.8380339527414544,
+        "avg_precision": 0.2554136610174183,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 32,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 236252.0,
+        "fraud_value_per_review_inr": 984.3833333333333,
+        "monthly_roc_auc": {
+          "2025-10": 0.8114697802197802,
+          "2025-11": 0.7683168316831683,
+          "2025-12": 0.9457908163265305,
+          "2026-01": 0.8346606648199445,
+          "2026-02": 0.9923076923076923,
+          "2026-03": 0.7399786617893613
+        }
+      }
+    },
+    "contributions": {
+      "remove_partner_history": {
+        "mean_points": 0.008289722386028578,
+        "std_points": 0.025133218864626362,
+        "share_of_score_spread": 0.47540799459081956
+      },
+      "remove_recent_partner_rate": {
+        "mean_points": 0.0017090242685416195,
+        "std_points": 0.003338885314541581,
+        "share_of_score_spread": 0.06315676396663363
+      },
+      "remove_partner_recency": {
+        "mean_points": 0.0038829666591063726,
+        "std_points": 0.011842349272358214,
+        "share_of_score_spread": 0.2240042371468668
+      },
+      "remove_customer_prior_claims": {
+        "mean_points": 0.004052319573599456,
+        "std_points": 0.0074235612959972054,
+        "share_of_score_spread": 0.14042054889432576
+      },
+      "remove_inspection_signal": {
+        "mean_points": 0.0014152869131322295,
+        "std_points": 0.005128615916225473,
+        "share_of_score_spread": 0.09701045540135422
+      }
+    },
+    "partner_weight_grid": {
+      "hist=0.75,recent=0.15": {
+        "roc_auc": 0.850529938059188,
+        "avg_precision": 0.2603992870769711,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 32,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 236252.0,
+        "fraud_value_per_review_inr": 984.3833333333333,
+        "monthly_roc_auc": {
+          "2025-10": 0.8058894230769231,
+          "2025-11": 0.7806223479490806,
+          "2025-12": 0.9408163265306122,
+          "2026-01": 0.8262638504155124,
+          "2026-02": 0.9925979680696663,
+          "2026-03": 0.8110806279530559
+        }
+      },
+      "hist=0.5,recent=0.15": {
+        "roc_auc": 0.8499793530626291,
+        "avg_precision": 0.2931271406687444,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 32,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 236252.0,
+        "fraud_value_per_review_inr": 984.3833333333333,
+        "monthly_roc_auc": {
+          "2025-10": 0.7970467032967034,
+          "2025-11": 0.7858557284299859,
+          "2025-12": 0.9396683673469388,
+          "2026-01": 0.824878808864266,
+          "2026-02": 0.9937590711175617,
+          "2026-03": 0.8150434385002285
+        }
+      },
+      "hist=0.25,recent=0.15": {
+        "roc_auc": 0.846501491167699,
+        "avg_precision": 0.3481786582408526,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 31,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 220025.0,
+        "fraud_value_per_review_inr": 916.7708333333334,
+        "monthly_roc_auc": {
+          "2025-10": 0.7986778846153846,
+          "2025-11": 0.7958981612446959,
+          "2025-12": 0.9209183673469388,
+          "2026-01": 0.8214162049861495,
+          "2026-02": 0.99288824383164,
+          "2026-03": 0.8168724279835391
+        }
+      },
+      "hist=0.0,recent=0.15": {
+        "roc_auc": 0.77652213810507,
+        "avg_precision": 0.04917243572739305,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 16,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 94374.0,
+        "fraud_value_per_review_inr": 393.225,
+        "monthly_roc_auc": {
+          "2025-10": 0.7651957417582418,
+          "2025-11": 0.7688118811881188,
+          "2025-12": 0.8248086734693877,
+          "2026-01": 0.6942520775623269,
+          "2026-02": 0.8994194484760523,
+          "2026-03": 0.7763298277701569
+        }
+      },
+      "hist=0.25,recent=0.5": {
+        "roc_auc": 0.8479697178251893,
+        "avg_precision": 0.3323468976160179,
+        "accuracy_at_0.5": 0.9886595599909277,
+        "queue_fraud": 32,
+        "queue_reviewed": 240,
+        "queue_fraud_value_inr": 236252.0,
+        "fraud_value_per_review_inr": 984.3833333333333,
+        "monthly_roc_auc": {
+          "2025-10": 0.8064045329670328,
+          "2025-11": 0.7920792079207921,
+          "2025-12": 0.9237244897959185,
+          "2026-01": 0.8290339335180056,
+          "2026-02": 0.9928882438316401,
+          "2026-03": 0.8214449016918153
+        }
+      }
+    },
+    "small_claims_by_period": {
+      "post_1_May_2026=False": {
+        "claims": 2711,
+        "fraud": 11
+      }
+    }
+  },
+  "validation_Apr_Jun2026": {
+    "months": [
+      "2026-04",
+      "2026-05",
+      "2026-06"
+    ],
+    "val_rows": 2131,
+    "val_fraud": 45,
+    "A_current": {
+      "roc_auc": 0.8338180462341536,
+      "avg_precision": 0.152060594266588,
+      "accuracy_at_0.5": 0.9788831534490849,
+      "queue_fraud": 18,
+      "queue_reviewed": 120,
+      "queue_fraud_value_inr": 39473.0,
+      "fraud_value_per_review_inr": 328.94166666666666,
+      "monthly_roc_auc": {
+        "2026-04": 0.6442857142857142,
+        "2026-05": 0.9108941418293937,
+        "2026-06": 0.8806407051703723
+      }
+    },
+    "B_policy_aware_amount": {
+      "0.02": {
+        "roc_auc": 0.8313358900607223,
+        "avg_precision": 0.15385776109291985,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 18,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 39473.0,
+        "fraud_value_per_review_inr": 328.94166666666666,
+        "monthly_roc_auc": {
+          "2026-04": 0.6442857142857142,
+          "2026-05": 0.9151593011305241,
+          "2026-06": 0.8825812393106169
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": -0.0024870675713920347,
+          "ci_low": -0.016842611831980287,
+          "ci_high": 0.00545055074626494,
+          "resamples": 2000,
+          "seed": 42
+        }
+      },
+      "0.05": {
+        "roc_auc": 0.833668903803132,
+        "avg_precision": 0.1585911160040701,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 18,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 39473.0,
+        "fraud_value_per_review_inr": 328.94166666666666,
+        "monthly_roc_auc": {
+          "2026-04": 0.6442857142857142,
+          "2026-05": 0.9151593011305241,
+          "2026-06": 0.885344033679779
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": -0.00014229092055542697,
+          "ci_low": -0.01501341102295688,
+          "ci_high": 0.00994305954088947,
+          "resamples": 2000,
+          "seed": 42
+        }
+      },
+      "0.1": {
+        "roc_auc": 0.8355544902524767,
+        "avg_precision": 0.17307526578622393,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 19,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 40250.0,
+        "fraud_value_per_review_inr": 335.4166666666667,
+        "monthly_roc_auc": {
+          "2026-04": 0.6442857142857142,
+          "2026-05": 0.9152620760534429,
+          "2026-06": 0.8882383896855678
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": 0.0017326217803924498,
+          "ci_low": -0.013178044441640007,
+          "ci_high": 0.012039703662470869,
+          "resamples": 2000,
+          "seed": 42
+        }
+      }
+    },
+    "B_amount_band_only": {
+      "0.02": {
+        "roc_auc": 0.838856929796527,
+        "avg_precision": 0.15605425417683444,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 18,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 39473.0,
+        "fraud_value_per_review_inr": 328.94166666666666,
+        "monthly_roc_auc": {
+          "2026-04": 0.650952380952381,
+          "2026-05": 0.9151593011305241,
+          "2026-06": 0.8825812393106169
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": 0.005092409179840943,
+          "ci_low": -0.002321006291047467,
+          "ci_high": 0.013853288249964506,
+          "resamples": 2000,
+          "seed": 42
+        }
+      },
+      "0.05": {
+        "roc_auc": 0.843789283051028,
+        "avg_precision": 0.15777178287593385,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 18,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 39473.0,
+        "fraud_value_per_review_inr": 328.94166666666666,
+        "monthly_roc_auc": {
+          "2026-04": 0.6706349206349207,
+          "2026-05": 0.9151593011305241,
+          "2026-06": 0.885344033679779
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": 0.010047114846661832,
+          "ci_low": 0.00017571966983013777,
+          "ci_high": 0.022243375763505113,
+          "resamples": 2000,
+          "seed": 42
+        }
+      },
+      "0.1": {
+        "roc_auc": 0.8463566634707573,
+        "avg_precision": 0.17043588607314572,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 19,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 40250.0,
+        "fraud_value_per_review_inr": 335.4166666666667,
+        "monthly_roc_auc": {
+          "2026-04": 0.6750793650793651,
+          "2026-05": 0.9152620760534429,
+          "2026-06": 0.8882383896855678
+        },
+        "auc_diff_vs_A": {
+          "mean_diff": 0.012607461630859261,
+          "ci_low": 0.0020070739222879,
+          "ci_high": 0.025833331533699662,
+          "resamples": 2000,
+          "seed": 42
+        }
+      }
+    },
+    "ablations": {
+      "remove_partner_history": {
+        "roc_auc": 0.8345264727815064,
+        "avg_precision": 0.3760156916414914,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 21,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 42887.0,
+        "fraud_value_per_review_inr": 357.39166666666665,
+        "monthly_roc_auc": {
+          "2026-04": 0.593015873015873,
+          "2026-05": 0.9267728674203494,
+          "2026-06": 0.9137942376003158
+        }
+      },
+      "remove_recent_partner_rate": {
+        "roc_auc": 0.8336156386491957,
+        "avg_precision": 0.1536276819474131,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 17,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 37276.0,
+        "fraud_value_per_review_inr": 310.6333333333333,
+        "monthly_roc_auc": {
+          "2026-04": 0.6418253968253967,
+          "2026-05": 0.9161870503597123,
+          "2026-06": 0.8818247599000131
+        }
+      },
+      "remove_partner_recency": {
+        "roc_auc": 0.7371524448705657,
+        "avg_precision": 0.10087643378993333,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 15,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 34164.0,
+        "fraud_value_per_review_inr": 284.7,
+        "monthly_roc_auc": {
+          "2026-04": 0.6679365079365078,
+          "2026-05": 0.5270298047276465,
+          "2026-06": 0.8568938297592423
+        }
+      },
+      "remove_customer_prior_claims": {
+        "roc_auc": 0.8440023436667732,
+        "avg_precision": 0.15822261385814385,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 14,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 32822.0,
+        "fraud_value_per_review_inr": 273.51666666666665,
+        "monthly_roc_auc": {
+          "2026-04": 0.7001587301587301,
+          "2026-05": 0.9071428571428573,
+          "2026-06": 0.8840941981318248
+        }
+      },
+      "remove_inspection_signal": {
+        "roc_auc": 0.8411473314157878,
+        "avg_precision": 0.13748985948093495,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 17,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 38047.0,
+        "fraud_value_per_review_inr": 317.05833333333334,
+        "monthly_roc_auc": {
+          "2026-04": 0.6635714285714285,
+          "2026-05": 0.8773895169578623,
+          "2026-06": 0.8763320615708459
+        }
+      }
+    },
+    "contributions": {
+      "remove_partner_history": {
+        "mean_points": 0.009258345847020177,
+        "std_points": 0.02836595380150355,
+        "share_of_score_spread": 0.4495910827217001
+      },
+      "remove_recent_partner_rate": {
+        "mean_points": 0.0018979080244016895,
+        "std_points": 0.0035587408524887826,
+        "share_of_score_spread": 0.056404877628742744
+      },
+      "remove_partner_recency": {
+        "mean_points": 0.005480994838104177,
+        "std_points": 0.013754944169601067,
+        "share_of_score_spread": 0.21801136268013271
+      },
+      "remove_customer_prior_claims": {
+        "mean_points": 0.004354768653214453,
+        "std_points": 0.007457729300185836,
+        "share_of_score_spread": 0.11820256826823758
+      },
+      "remove_inspection_signal": {
+        "mean_points": 0.010943219145940873,
+        "std_points": 0.009955417502180939,
+        "share_of_score_spread": 0.15779010870118693
+      }
+    },
+    "partner_weight_grid": {
+      "hist=0.75,recent=0.15": {
+        "roc_auc": 0.8338180462341536,
+        "avg_precision": 0.152060594266588,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 18,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 39473.0,
+        "fraud_value_per_review_inr": 328.94166666666666,
+        "monthly_roc_auc": {
+          "2026-04": 0.6442857142857142,
+          "2026-05": 0.9108941418293937,
+          "2026-06": 0.8806407051703723
+        }
+      },
+      "hist=0.5,recent=0.15": {
+        "roc_auc": 0.8364866304463621,
+        "avg_precision": 0.16086787471239733,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 19,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 40250.0,
+        "fraud_value_per_review_inr": 335.4166666666667,
+        "monthly_roc_auc": {
+          "2026-04": 0.6432539682539682,
+          "2026-05": 0.9139773895169578,
+          "2026-06": 0.8839297460860414
+        }
+      },
+      "hist=0.25,recent=0.15": {
+        "roc_auc": 0.835810162991371,
+        "avg_precision": 0.23200657838292962,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 20,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 42245.0,
+        "fraud_value_per_review_inr": 352.0416666666667,
+        "monthly_roc_auc": {
+          "2026-04": 0.6394444444444445,
+          "2026-05": 0.9179856115107913,
+          "2026-06": 0.8978094987501646
+        }
+      },
+      "hist=0.0,recent=0.15": {
+        "roc_auc": 0.8345264727815064,
+        "avg_precision": 0.3760156916414914,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 21,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 42887.0,
+        "fraud_value_per_review_inr": 357.39166666666665,
+        "monthly_roc_auc": {
+          "2026-04": 0.593015873015873,
+          "2026-05": 0.9267728674203494,
+          "2026-06": 0.9137942376003158
+        }
+      },
+      "hist=0.25,recent=0.5": {
+        "roc_auc": 0.8417811867476297,
+        "avg_precision": 0.21227821610774122,
+        "accuracy_at_0.5": 0.9788831534490849,
+        "queue_fraud": 20,
+        "queue_reviewed": 120,
+        "queue_fraud_value_inr": 42245.0,
+        "fraud_value_per_review_inr": 352.0416666666667,
+        "monthly_roc_auc": {
+          "2026-04": 0.6424603174603175,
+          "2026-05": 0.9025693730729702,
+          "2026-06": 0.8976121562952244
+        }
+      }
+    },
+    "small_claims_by_period": {
+      "post_1_May_2026=False": {
+        "claims": 446,
+        "fraud": 5
+      },
+      "post_1_May_2026=True": {
+        "claims": 1085,
+        "fraud": 35
+      }
+    }
+  }
+}

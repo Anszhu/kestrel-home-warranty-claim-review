@@ -1,0 +1,28 @@
+# --- private client data (NEVER commit) ---
+data/*
+!data/README.md
+outputs/*
+!outputs/README.md
+models/*
+!models/README.md
+validation/*.csv
+*.csv
+*.pdf
+*.xlsx
+email-thread*
+# --- secrets ---
+.env
+*.key
+secrets*
+# --- python / tooling ---
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+.idea/
+.vscode/
+*.log
+*.tmp
+*.zip
+logs/

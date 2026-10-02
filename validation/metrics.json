@@ -1,0 +1,55 @@
+{
+  "onboarding_date_check": {
+    "claims_checked": 11146,
+    "onboarded_after_claim": 0,
+    "missing_or_invalid_onboarding_date": 0
+  },
+  "labeled_rows": 11146,
+  "fraud_rows": 141,
+  "fraud_prevalence": 0.012650278126682218,
+  "val_rows": 2131,
+  "val_fraud": 45,
+  "roc_auc": 0.8338180462341536,
+  "avg_precision": 0.152060594266588,
+  "accuracy_at_0.5": 0.9788831534490849,
+  "all_genuine_accuracy": 0.9788831534490849,
+  "monthly": {
+    "2026-04": {
+      "rows": 709,
+      "fraud": 9,
+      "roc_auc": 0.6442857142857142,
+      "roc_auc_note": null
+    },
+    "2026-05": {
+      "rows": 709,
+      "fraud": 14,
+      "roc_auc": 0.9108941418293937,
+      "roc_auc_note": null
+    },
+    "2026-06": {
+      "rows": 713,
+      "fraud": 22,
+      "roc_auc": 0.8806407051703723,
+      "roc_auc_note": null
+    }
+  },
+  "queue_reviewed": 120,
+  "queue_fraud": 18,
+  "queue_fraud_value_inr": 39473.0,
+  "fraud_value_per_review_inr": 328.94166666666666,
+  "val_total_fraud_value_inr": 104109.0,
+  "random_review_fraud_value_per_review_inr": 48.85452839042703,
+  "genuine_in_queue": 102,
+  "goodwill_if_all_genuine_held_inr": 38760.0,
+  "residual_after_goodwill_inr": 713.0,
+  "residual_per_review_inr": 5.941666666666666,
+  "bootstrap_auc": {
+    "n_resamples": 2000,
+    "valid_resamples": 2000,
+    "seed": 42,
+    "ci_low": 0.7454838318092715,
+    "ci_high": 0.9082838420905327
+  },
+  "protocol": "walk-forward Apr-Jun 2026; partner stats fitted only on claims before each month",
+  "assumptions": "Queue = top 40 per calendar month by score, ranked with full-month visibility. Fraud value = claim_amount_inr of confirmed fraud in the queue (gross). Goodwill assumes every genuine reviewed claim is held (Rs 380, policy s4); Rs 260 service-contact cost and investigator time not included."
+}
