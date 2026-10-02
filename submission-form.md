@@ -60,7 +60,7 @@ Note: the assignment wording asks for public links, but Kestrel's policy (s10) a
 
 ## Github Repo Link
 
-[PRIVATE REPOSITORY URL]
+[https://github.com/Anszhu/kestrel-home-warranty-claim-review](https://github.com/Anszhu/kestrel-home-warranty-claim-review)
 
 The form field says "Public", but the repository must be PRIVATE (client data and `src/model_config.json` are confidential). Share access with the address in the invitation, as the assignment itself allows.
 
